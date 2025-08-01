@@ -1,0 +1,44 @@
+
+07/31/25 12:01:23 PM LogName=Security SourceName=Microsoft Windows security Auditing. EventCode=4625
+EventType=FailureAudit ComputerName=LAB-01 TaskCategory=Logon Keywords=Audit Failure
+Message=An account failed to log on.
+Subject:
+    Security ID:        S-1-0-0
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:           0x0
+Logon Type: 3
+Account For Which Logon Failed:
+    Security ID:        S-1-0-0
+    Account Name:       john_doe
+    Account Domain:     LAB-01
+Failure Information:
+    Failure Reason:     Unknown user name or bad password.
+    Status:             0xc000006d
+    Sub Status:         0xc000006a
+Network Information:
+    Workstation Name:   WORKSTATION-23
+    Source Network Address: 192.168.1.100
+    Source Port:        53124
+
+07/31/25 12:03:11 PM LogName=Security SourceName=Microsoft Windows security Auditing. EventCode=4625
+EventType=FailureAudit ComputerName=LAB-01 TaskCategory=Logon Keywords=Audit Failure
+Message=An account failed to log on.
+Subject:
+    Security ID:        S-1-0-0
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:           0x0
+Logon Type: 3
+Account For Which Logon Failed:
+    Security ID:        S-1-0-0
+    Account Name:       admin
+    Account Domain:     LAB-01
+Failure Information:
+    Failure Reason:     Unknown user name or bad password.
+    Status:             0xc000006d
+    Sub Status:         0xc000006a
+Network Information:
+    Workstation Name:   WORKSTATION-45
+    Source Network Address: 192.168.1.110
+    Source Port:        54167
