@@ -28,7 +28,7 @@ index=bruteforce_logs "Source Network Address"
 
 - `sample_failed_logins.log` – Custom log file with Windows Security events
 - `spl_query.txt` – SPL query used for analysis
-- `dashboard_screenshot.png` – Visual of the final panel (add this manually)
+- `dashboard_screenshot.png` – Visual of the final panel 
 - `README.md` – This file
 
 ##  How This Applies to Real-World SOC Roles
