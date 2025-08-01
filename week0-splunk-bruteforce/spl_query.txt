@@ -1,0 +1,4 @@
+index=bruteforce_logs "Source Network Address"
+| rex field=_raw "Source Network Address:\s+(?<source_ip>\d+\.\d+\.\d+\.\d+)"
+| stats count by source_ip
+| sort -count
