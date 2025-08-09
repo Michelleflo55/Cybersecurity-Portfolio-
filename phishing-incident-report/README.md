@@ -13,3 +13,8 @@ Document the detection, analysis, and containment of a simulated phishing email 
 - Threat classification  
 - Containment and mitigation planning  
 - Application of NIST 800-61 incident response framework
+
+
+**Documentation to Quarantine Emails :**
+- https://support.google.com/a/answer/14174799?hl=en
+- https://learn.microsoft.com/en-us/defender-office-365/quarantine-about
